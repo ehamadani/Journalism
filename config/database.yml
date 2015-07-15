@@ -1,0 +1,20 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: journalism_development
+  username: essiehamadani
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: journalism_test
+  username: essiehamadani
+  port: 5432
+
+staging:
+  adapter: postgresql
+
+production:
+  adapter: postgresql
+
